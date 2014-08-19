@@ -66,4 +66,4 @@ sdCD$Source <- names[index==1]
 sdCD$Subject <- names[index==2]
 sdCD$Activity <- names[index==3]
                    
-write.table(MeanCD,"meanData.csv",sep=",",row.name=FALSE)
+write.table(MeanCD,"meanData.txt",sep=",",row.name=FALSE)
